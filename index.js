@@ -84,7 +84,5 @@ function W(record){
 function superbowlWin(record){
     if(record.find(W)){
         return record.find(W).year;
-    } else {
-        return undefined;
     }
 }
